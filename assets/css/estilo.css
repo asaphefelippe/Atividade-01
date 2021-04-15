@@ -1,0 +1,22 @@
+.navegacao ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.navegacao {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.navegacao .logo {
+    max-width: 100px;
+}
+
+.navegacao ul li {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 14px;
+}
+.centra {
+    text-align: center;
+}
